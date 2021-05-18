@@ -35,8 +35,28 @@ h1 {
     font-size: 8rem;
     text-transform: uppercase;
     color: white;
+    font-family: 'Traveler', sans-serif;
+}
 
+h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Traveler', sans-serif;
+}
+
+.signature {
+    position: fixed;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    bottom: 0;
+    right: 0;
 }
 
 /* TO SCROLL DOWN */
 /* section {height: 100vh;} */
+
+@font-face {
+	font-family: "Traveler";
+	src: url("Traveler.ttf") format("truetype");
+}
