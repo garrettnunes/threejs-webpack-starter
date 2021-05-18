@@ -18,3 +18,6 @@ npm run build
 
 deploy
 gcloud app deploy
+
+virtual environment
+py -m venv env
